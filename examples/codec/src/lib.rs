@@ -91,7 +91,7 @@ mod tests {
         use fuels::core::codec::ABIDecoder;
 
         ABIDecoder::new(DecoderConfig {
-            max_depth: 5,
+            max_depth: 15,
             max_tokens: 100,
         });
         // ANCHOR_END: configuring_the_decoder
